@@ -1,0 +1,32 @@
+configurations and packages needed:
+
+important : create a folder named backend by ourself manually . bcoz it doesn't works like react. react creates a folder for us.
+BACKEND: 
+note: change the path to backend
+npm init -y ==> package.json is created
+  "type": "module"  // add it in our package.json
+
+npm i express nodemon ==> node_modules and package-lock.json file is created
+//add this code in package.json
+"scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+
+  create index.js  and config.js file
+  
+  npm run dev ==> to start the server
+  node -v // check node version
+
+  MONGODB:
+  copy connection string and add collecion name from Driver connection. 
+  replace the placeholders also the open close tags < > and provide username and password.
+  add the collection name in the connection string.
+  
+  npm i mongoose ==>
+  2 ways to allow cors:
+  way 1: define default configuration
+  npm i cors ==> to allow the cross origin resource sharing. eg: 5000 port from node js to 3000 port react js
+  sharing resource from nodejs server to react js client.
+  - way 2: define custom configuration
+  cors() method present int 

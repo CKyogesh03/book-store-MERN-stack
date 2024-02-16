@@ -1,0 +1,29 @@
+FRONTEND: we use vite react
+VITE REACT CONFIGURATIONS:
+important note: we no need to create folder manually. react will do it for us.
+
+note: make sure, you are in main folder
+steps to setup vite react in command prompt:
+command -> npm create vite@latest
+->provide project name
+->select react
+->select javascript
+
+note: change directry to frontend
+
+npm i ==> use this comand , installing package
+
+TAILWIND CSS CONFIGURATIONS:
+add tailwind css to vite - follow the steps given in tailwind css website
+npm i react-router-dom
+
+src -> create pages folder -> create jsx files/components for book operations like create,edit,delete,show
+
+npm i axios react-icons
+
+ADD NEW TERMINAL BY CLICKING PLUS SYMBOL:
+to work with 2 folders using 2 terminal. so frequently switching is not needed from 1 folder to another folder.
+
+src -> components -> Spinner.jsx
+
+npm i notistack
